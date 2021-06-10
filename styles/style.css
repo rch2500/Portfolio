@@ -1,0 +1,185 @@
+/* source: colors:  https://www.colourlovers.com/palette/1351156/Portfolio_1 */
+
+header {
+    padding: 1em;
+    background-color: #1dc116;
+}
+
+body {
+    background-color: #F2F1F0;
+    color: #1C1B18;
+
+    font-family: Arial, sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: "Helvetica", sans-serif;
+}
+
+p {
+    margin-left: 1em;
+}
+
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size:2.5em;
+}
+h3 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 2em;
+    text-transform: uppercase;
+/*    padding: 2em; */
+/*    display: inline; */
+}
+
+nav ul li {
+    display: inline;
+ /*   text-align: center; */
+}
+
+nav ul li a {
+    padding: 1em;
+    line-height: 2em;
+    color: white;
+/*    display: inline; */
+    background-color: #D3643B;
+/*    text-align: center; */
+}
+
+
+#hello  {
+    background-image: url(../images/webdesigner.jpg);
+    background-size: cover;
+    height: 800px;
+}
+
+#hello p {
+    font-size: 2em;
+}
+
+
+#hello img {
+    float: right;
+}
+
+#skills h2 {
+    margin-left: 1em;
+}
+
+#skills ul {
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+/*
+#skills {
+    background-image: url(../images/butterfingers.jpeg);
+    background-size: cover;
+    height: 800px;
+    color: #FFFFFF;
+}
+*/
+
+/*
+#who {
+    background-image: url(../images/webdesigner.jpg);
+    background-size: cover;
+    height: 800px;
+ }
+
+ */
+
+#who p {
+    font-size: 2em;
+}
+
+#contact {
+    background-image: url(../images/contactcubes.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 800px;
+    color: white;
+}
+
+#work  h2 {
+    margin-left: 2em;
+}
+
+#work h3 {
+    margin-left: 4em;
+}
+
+#work p {
+    font-size: 2em;
+}
+
+#work {
+    color: white;
+    background-image: url(../images/frontend_webdeveloper.jpg);
+    background-size: cover;
+ /*   height: 1000px; */
+}
+
+#work a {
+    color: white;
+}
+
+footer {
+    padding: 1em;
+ /*   background-color: #A9C7BD; */
+   background-image: url(../images/webdeveloperroadmap.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 1152px;
+    width: auto;
+
+}
+
+footer {
+    font-size: 2em;
+}
+footer img {
+    opacity: 0.2;
+}
+
+/* For mobile Resolutions */
+@media only screen and (max-width: 481px) {
+
+    nav ul {
+        list-style-type: none;
+        font-size: 1em;
+        text-transform: uppercase;
+        display: block;
+        /*    padding: 2em; */
+        /*    display: inline; */
+    }
+
+    nav ul li {
+        display: block;
+        /*   text-align: center; */
+    }
+
+    nav ul li a {
+        padding: 0.5em;
+        line-height: 1em;
+        color: white;
+        display: block;
+        /*    display: inline; */
+        background-color: #D3643B;
+        /*    text-align: center; */
+    }
+
+    #contact p {
+        font-size: 2em;
+    }
+
+
+
+
+}
